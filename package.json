@@ -1,15 +1,17 @@
 {
-  "name": "02-webpack-img",
+  "name": "basic-vue-webpack-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "a single page application template based on vue + webpack",
   "main": "webpack.config.js",
   "scripts": {
     "build": "webpack",
     "dev": "webpack-dev-server",
     "start": "npm run dev"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "vue"
+  ],
+  "author": "elenh",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.0",

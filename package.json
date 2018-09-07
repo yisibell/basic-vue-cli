@@ -1,16 +1,25 @@
 {
   "name": "basic-vue-webpack-template",
-  "version": "1.0.0",
-  "description": "a single page application template based on vue + webpack",
-  "main": "webpack.config.js",
+  "version": "0.0.1",
+  "description": "A single page application template based on vue + webpack",
+  "main": "./demo/index.js",
   "scripts": {
-    "build": "webpack",
-    "dev": "webpack-dev-server",
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack-dev-server --config webpack.config.js",
     "start": "npm run dev"
   },
   "keywords": [
+    "template",
+    "spa",
     "vue"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yisibell/basic-vue-webpack-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yisibell/basic-vue-webpack-template/issues"
+  },
   "author": "elenh",
   "license": "ISC",
   "devDependencies": {

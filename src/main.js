@@ -1,18 +1,13 @@
 import Vue from "vue"
-
 import App from "./App.vue"
 
-import VueRouter from "vue-router"
+import Demo from './demo'
 
-//使用Vue.use安装 VueRouter插件
-Vue.use(VueRouter);
-
-import router from "./routes/router.js"
+Vue.use(Demo)
 
 var vm = new Vue({
     el: "#app",
     render(createElement){
         return createElement(App);
-    },
-    router
+    }
 })

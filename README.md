@@ -6,8 +6,8 @@
 
 ## 使用步骤
 ```
-git clone https://github.com/yisibell/basic-vue-webpack-template.git yourProjectName
-cd [yourProjectDirectory]
+git clone https://github.com/yisibell/basic-vue-webpack-template.git [proName]
+cd [proName]
 npm install
 npm start
 ```

@@ -1,4 +1,4 @@
-# basic-vue-webpack-template
+# vpt
 > A template for building vue plugins!
 
 ## Usage

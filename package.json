@@ -1,11 +1,11 @@
 {
-  "name": "basic-vue-webpack-template",
+  "name": "vpt",
   "version": "0.0.1",
   "description": "A single page application template based on vue + webpack",
-  "main": "./demo/index.js",
+  "main": "./src/demo/index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "dev": "webpack-dev-server --config webpack.config.js",
+    "build": "webpack --config build/webpack.prod.conf.js",
+    "dev": "webpack-dev-server --config build/webpack.dev.conf.js",
     "start": "npm run dev"
   },
   "keywords": [
@@ -15,10 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yisibell/basic-vue-webpack-template.git"
+    "url": "https://github.com/yisibell/vpt.git"
   },
   "bugs": {
-    "url": "https://github.com/yisibell/basic-vue-webpack-template/issues"
+    "url": "https://github.com/yisibell/vpt/issues"
   },
   "author": "elenh",
   "license": "ISC",

@@ -4,10 +4,12 @@ var webpack = require("webpack");
 
 
 module.exports = {
-    entry: path.join(__dirname, "src", "main.js"),
+    entry: path.join(__dirname, "../src", "demo/index.js"),
     output: {
-        path: path.join(__dirname, "dist"),
-        filename: "bundle.js"
+        path: path.join(__dirname, "../dist"),
+        filename: "index.js",
+        library: "demo",
+        libraryTarget: "umd"
     },
     module: {
         rules: [
@@ -53,17 +55,5 @@ module.exports = {
                 use: ["vue-loader"]
             }
         ]
-    },
-    plugins: [
-        new HtmlWebpackPlugin({
-            template: path.join(__dirname, "src", "index.html")
-        }),
-        new webpack.HotModuleReplacementPlugin()
-    ],
-    devServer: {
-        port: 8088,
-        hot: true,
-        contentBase: path.join(__dirname, "src"),
-        compress: true
     }
-}
+  }
